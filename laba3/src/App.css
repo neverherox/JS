@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.calculator{
+    width: 360px;
+    height: 650px;
+    margin: auto;
+}
+
+.output {
+    width: 360px;
+    height: 150px;
+    background: linear-gradient(#2C3059,#393E73);
+    position: relative;
+}
+
+.buttons {
+    width: 360x;
+    height: 500px;
+    background: linear-gradient(#F2736E,#F04949);
+}
+
+input {
+    background: none;
+    border: none;
+    color: white;
+    font-family: Actor;
+    font-size: 30px;
+    position: absolute;
+    right:0;
+    bottom:0;
+    text-align: right;    
+}
+
+button {
+    background: none;
+    color:white;
+    font-size: 25px;
+    font-family: Actor;
+    height: 100px;
+    border-color: rgba(251, 255, 255, 0.1);
+    border-style: solid;
+    border-width: 1px;
+    width: 90px;
+}
+
+
+
