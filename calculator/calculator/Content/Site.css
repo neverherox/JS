@@ -1,4 +1,4 @@
-* {
+﻿* {
     padding: 0;
     margin: 0;
 }
@@ -6,7 +6,7 @@
 /*divs*/
 
 .calculator {
-    position:relative;
+    position: relative;
     width: 402px;
     height: 652px;
     margin: auto;
@@ -14,10 +14,9 @@
 }
 
 .output {
-    position:relative;
+    position: relative;
     width: 402px;
     height: 150px;
-
 }
 
 .layout {
@@ -28,12 +27,12 @@
 }
 
 .hidden {
-    visibility:hidden;
+    visibility: hidden;
     height: 0;
 }
 
-.visible{
-    visibility:visible;
+.visible {
+    visibility: visible;
     height: 100%;
 }
 
@@ -41,7 +40,7 @@
     width: 100%;
     position: absolute;
     bottom: 0;
-    overflow-y: auto; 
+    overflow-y: auto;
     transition: all 0.5s ease;
 }
 
@@ -69,15 +68,15 @@ input[type = button] {
     border-color: rgba(251, 255, 255, 0.1);
     border-style: solid;
     border-width: 1px;
-    outline-color:  rgba(251, 255, 255, 0.1);
+    outline-color: rgba(251, 255, 255, 0.1);
 }
 
-.notetable table{
+.notetable table {
     width: 100%;
     font-family: 'Actor';
     font-size: 25px;
     color: white;
-    table-layout:fixed;
+    table-layout: fixed;
 }
 
 .notetable th {
@@ -91,7 +90,5 @@ input[type = button] {
     border-style: solid;
     border-width: 3px;
     border-color: rgba(251, 255, 255, 0.1);
-    word-wrap:break-word;
+    word-wrap: break-word;
 }
-
-
